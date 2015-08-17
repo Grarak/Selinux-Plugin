@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="selinux_items">
+        <item>@string/permissive</item>
+        <item>@string/enforcing</item>
+    </string-array>
+</resources>

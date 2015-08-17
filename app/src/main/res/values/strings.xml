@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Selinux-Plugin</string>
+    <string name="tab_name">Selinux Changer</string>
+    <string name="selinux">Selinux</string>
+    <string name="selinux_summary">Security-Enhanced Linux is a Linux kernel security module that provides a mechanism for supporting access control security policies, including United States Department of Defense–style mandatory access controls.</string>
+    <string name="permissive">Permissive</string>
+    <string name="enforcing">Enforcing</string>
+    <string name="no_selinux">Your devices doesn\'t seem to have Selinux.</string>
+    <string name="disabled_selinux">Selinux is disabled on your device!</string>
+</resources>
