@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Selinux-Plugin</string>
+
+    <string name="waiting_for_root">Waiting for root access</string>
+    <string name="hello">Hello!</string>
+    <string name="hello_summary">Thank you for downloading this KernelAdiutor Plugin. Please make sure you granted root access for this application, otherwise you won\'t see its settings!</string>
+    <string name="no_root">No root access!</string>
+
     <string name="tab_name">Selinux Changer</string>
     <string name="selinux">Selinux</string>
     <string name="selinux_summary">Security-Enhanced Linux is a Linux kernel security module that provides a mechanism for supporting access control security policies, including United States Department of Defense–style mandatory access controls.</string>
