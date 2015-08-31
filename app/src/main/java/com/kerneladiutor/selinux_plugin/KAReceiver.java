@@ -49,7 +49,8 @@ public class KAReceiver extends BroadcastReceiver {
 
         PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, new Intent(RECEIVE_EVENT), 0);
 
-        SELINUX selinuxState = getSelinuxState();
+        RootUtils.SU sh = new RootUtils.SU(false);
+        SELINUX selinuxState = getSelinuxState(sh);
         switch (selinuxState) {
             case PERMISSIVE:
             case ENFORCING:
@@ -77,10 +78,11 @@ public class KAReceiver extends BroadcastReceiver {
         }
 
         PluginManager.publishTab(tab);
+
     }
 
-    private SELINUX getSelinuxState() {
-        switch (RootUtils.runCommand("getenforce").toLowerCase()) {
+    private SELINUX getSelinuxState(RootUtils.SU su) {
+        switch (su.runCommand("getenforce").toLowerCase()) {
             case "disabled":
                 return SELINUX.DISABLED;
             case "permissive":

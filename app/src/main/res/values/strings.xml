@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">Selinux-Plugin</string>
 
-    <string name="waiting_for_root">Waiting for root access</string>
     <string name="hello">Hello!</string>
-    <string name="hello_summary">Thank you for downloading this KernelAdiutor Plugin. Please make sure you granted root access for this application, otherwise you won\'t see its settings!</string>
-    <string name="no_root">No root access!</string>
+    <string name="hello_summary">Thank you for downloading this KernelAdiutor Plugin.</string>
+    <string name="ok">OK</string>
 
     <string name="tab_name">Selinux Changer</string>
     <string name="selinux">Selinux</string>

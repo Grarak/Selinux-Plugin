@@ -20,5 +20,5 @@ android {
 }
 
 dependencies {
-    compile 'com.kerneladiutor.plugin:library:0.1'
+    compile 'com.kerneladiutor.plugin:library:0.1.1'
 }
